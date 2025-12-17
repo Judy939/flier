@@ -1,0 +1,39 @@
+.image-part {
+    overflow: hidden;
+    object-fit: cover;
+}
+.image-part img {
+    object-fit: fill;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+.hero {
+    font-size: 1.6rem;
+    padding-bottom: 50px;
+    /* padding-top: 30px; */
+    background: linear-gradient(
+        to right,
+        rgb(91, 4, 153) 10%,
+        rgb(198, 18, 198),
+        rgb(5, 5, 172)
+    );
+}
+.hero2 {
+    background-color: purple;
+    border-radius: 50px;
+    height: 270px;
+}
+.text-area {
+    width: 32%;
+}
+.text-area2 {
+    width: 33%;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.contact-info {
+    width: 35%;
+    color: aliceblue;
+    text-transform: capitalize;
+}
